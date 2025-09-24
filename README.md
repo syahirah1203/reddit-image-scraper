@@ -10,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 You need Python 3.x installed on your system. Install required libraries with:
 
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 This will install:  
 - `requests` → to fetch data from Reddit  
@@ -20,19 +20,19 @@ This will install:
 
 1. Clone the repository:
 
-```git clone https://github.com/YOUR_USERNAME/reddit-image-scraper.git
+```git clone https://github.com/YOUR_USERNAME/reddit-image-scraper.git```
 
-```cd reddit-image-scraper
+```cd reddit-image-scraper```
 
 2. Run the scraper to fetch posts:
 
-```python scrapper.py
+```python scrapper.py```
 
 - This will scrape ~10 pages from the subreddit and save posts with images into `output.json`.
 
 3. (Optional) View posts in a simple web page:
 
-```python app.py
+```python app.py```
 
 
 - Open your browser at `http://127.0.0.1:5000/` to see titles and images.
@@ -51,6 +51,7 @@ This will install:
   },
   ...
 ]
+```
 
 ### Coding style
 
